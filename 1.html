@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>Basic app</title>
+		<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js">
+		</script>
+
+</head>
+<body ng-app="">
+		 currency: <input type="text" ng-model="price"><br>
+		 welcome {{price |currency:"Rs. "}}
+		<div ng-include="'2.html'"></div>
+</body>
+</html>
